@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testvagrant.testModules.HotelBookingTest">
+      <class name="com.testvagrant.testModules.SignInTest">
         <methods>
           <include name="loadApp"/>
-          <include name="shouldBeAbleToSearchForHotels"/>
-          <include name="windUp"/>
           <include name="clearAll"/>
+          <include name="shouldThrowAnErrorIfSignInDetailsAreMissing"/>
           <include name="setDriver"/>
         </methods>
-      </class> <!-- com.testvagrant.testModules.HotelBookingTest -->
+      </class> <!-- com.testvagrant.testModules.SignInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
