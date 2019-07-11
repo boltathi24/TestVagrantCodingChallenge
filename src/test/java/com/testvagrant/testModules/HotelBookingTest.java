@@ -40,6 +40,7 @@ public class HotelBookingTest extends ClearTripPage {
 	
 	@AfterClass
 	public void windUp() {
+		
 		driver.close();
 	}
 
