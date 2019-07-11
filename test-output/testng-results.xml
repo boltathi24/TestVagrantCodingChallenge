@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16698" started-at="2019-07-11T20:10:28Z" finished-at="2019-07-11T20:10:45Z">
+  <suite name="Default suite" duration-ms="11744" started-at="2019-07-11T20:40:53Z" finished-at="2019-07-11T20:41:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16698" started-at="2019-07-11T20:10:28Z" finished-at="2019-07-11T20:10:45Z">
-      <class name="com.testvagrant.testModules.HotelBookingTest">
-        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.testvagrant.testModules.HotelBookingTest@57baeedf]" name="setDriver" is-config="true" duration-ms="1125" started-at="2019-07-12T01:40:27Z" finished-at="2019-07-12T01:40:28Z">
+    <test name="Default test" duration-ms="11744" started-at="2019-07-11T20:40:53Z" finished-at="2019-07-11T20:41:05Z">
+      <class name="com.testvagrant.testModules.FlightBookingTest">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="setDriver" is-config="true" duration-ms="1068" started-at="2019-07-12T02:10:52Z" finished-at="2019-07-12T02:10:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="loadApp()[pri:0, instance:com.testvagrant.testModules.HotelBookingTest@57baeedf]" name="loadApp" is-config="true" duration-ms="3081" started-at="2019-07-12T01:40:28Z" finished-at="2019-07-12T01:40:31Z">
+        <test-method status="PASS" signature="loadApp()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="loadApp" is-config="true" duration-ms="3299" started-at="2019-07-12T02:10:53Z" finished-at="2019-07-12T02:10:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApp -->
-        <test-method status="PASS" signature="shouldBeAbleToSearchForHotels()[pri:0, instance:com.testvagrant.testModules.HotelBookingTest@57baeedf]" name="shouldBeAbleToSearchForHotels" duration-ms="13460" started-at="2019-07-12T01:40:31Z" finished-at="2019-07-12T01:40:44Z">
+        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="testThatResultsAppearForAOneWayJourney" duration-ms="8298" started-at="2019-07-12T02:10:56Z" finished-at="2019-07-12T02:11:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- shouldBeAbleToSearchForHotels -->
-        <test-method status="PASS" signature="windUp()[pri:0, instance:com.testvagrant.testModules.HotelBookingTest@57baeedf]" name="windUp" is-config="true" duration-ms="140" started-at="2019-07-12T01:40:44Z" finished-at="2019-07-12T01:40:45Z">
+        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
+        <test-method status="PASS" signature="windUp()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="windUp" is-config="true" duration-ms="125" started-at="2019-07-12T02:11:05Z" finished-at="2019-07-12T02:11:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windUp -->
-        <test-method status="PASS" signature="clearAll()[pri:0, instance:com.testvagrant.testModules.HotelBookingTest@57baeedf]" name="clearAll" is-config="true" duration-ms="19" started-at="2019-07-12T01:40:45Z" finished-at="2019-07-12T01:40:45Z">
+        <test-method status="PASS" signature="clearAll()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="clearAll" is-config="true" duration-ms="22" started-at="2019-07-12T02:11:05Z" finished-at="2019-07-12T02:11:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearAll -->
-      </class> <!-- com.testvagrant.testModules.HotelBookingTest -->
+      </class> <!-- com.testvagrant.testModules.FlightBookingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

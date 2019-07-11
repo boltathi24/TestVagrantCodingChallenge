@@ -1,6 +1,7 @@
 package com.testvagrant.Utils;
 
 import java.io.File;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -21,11 +22,16 @@ public class Utility extends BaseClass
 	
 	 public void waitForElement(By by) throws InterruptedException 
 	 {
-     int timeToWait = 25;
+     int timeToWait = 15;
 	WebDriverWait wait = new WebDriverWait(driver, timeToWait);
 	wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 	}
 	
+	 public WebElement element(By by) throws InterruptedException
+	 {
+		 waitForElement(by);
+		 return driver.findElement(by);
+	 }
 	 
 	 public void selectValue(WebElement element,String value)
 	 {
@@ -35,5 +41,21 @@ public class Utility extends BaseClass
 	 public void switchFrame(String frameName)
 	 {
 		 driver.switchTo().frame("modal_window");
+	 }
+	 
+	 public List<WebElement> elementList(By by)
+	 {
+		 return driver.findElements(by);
+	 }
+	 public boolean isElementPresent(By by)
+	 {
+		 if(driver.findElements(by).size()>0)
+		 {
+			 return true;
+		 }
+		 else
+		 {
+			 return false;
+		 }
 	 }
 }

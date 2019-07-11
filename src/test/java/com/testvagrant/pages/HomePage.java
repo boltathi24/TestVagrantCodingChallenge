@@ -34,6 +34,21 @@ public class HomePage extends Utility {
 	    
 
 	    
+	    
+	    
+	    //Flight Booking
+	    protected By oneWayRadioBtn= By.id("OneWay");
+	    protected By fromTxtBox=By.id("FromTag");
+	    protected By toTxtBox=By.id("ToTag");
+	    protected  By fromSuggestion=By.xpath("//ul[@id='ui-id-1']//li//a");
+	    protected By returnSuggestion=By.xpath("//ul[@id='ui-id-2']//li//a");
+	    
+	    protected By departDateBox=By.id("DepartDate");
+	    protected By searchResultSummary=By.className("searchSummary");
+	    protected By activeDate=By.xpath("//a[@class='ui-state-default ui-state-highlight ui-state-active ']");
+	    protected By searchFlightBtn=By.id("SearchBtn");
+	      
+	    
 	    public void initElements()
 	    {
 	    	PageFactory.initElements(driver, this);
