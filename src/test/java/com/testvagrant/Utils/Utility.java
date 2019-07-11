@@ -31,4 +31,9 @@ public class Utility extends BaseClass
 	 {
 		 new Select(element).selectByVisibleText(value);
 	 }
+	 
+	 public void switchFrame(String frameName)
+	 {
+		 driver.switchTo().frame("modal_window");
+	 }
 }

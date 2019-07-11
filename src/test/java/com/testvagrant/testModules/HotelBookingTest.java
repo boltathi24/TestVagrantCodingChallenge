@@ -11,13 +11,14 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.testvagrant.pages.ClearTripPage;
+import com.testvagrant.pages.HomePage;
 
-public class HotelBookingTest extends ClearTripPage {
+public class HotelBookingTest extends HomePage {
 
 	@BeforeClass
 	public void loadApp() {
@@ -34,6 +35,8 @@ public class HotelBookingTest extends ClearTripPage {
 		locationToSeaerchSuggestion.click();
 		selectValue(travellerSelection, "1 room, 2 adults");
 		searchButton.click();
+		waitForElement(hotelLists);
+		 Assert.assertTrue(hotelListsElement.isDisplayed(),"***Failure: Hotel List is not  displayed");
 
 	}
 

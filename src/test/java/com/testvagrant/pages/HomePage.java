@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.testvagrant.Utils.Utility;
 
-public class ClearTripPage extends Utility {
+public class HomePage extends Utility {
 	
 	 	@FindBy(linkText = "Hotels")
 	    protected WebElement hotelLink;
@@ -24,8 +24,11 @@ public class ClearTripPage extends Utility {
 	    @FindBy(xpath = "//a[text()='Indiranagar, Bangalore, Karnataka, India']")
 	    protected WebElement locationToSeaerchSuggestion;
 	    
+	    @FindBy(xpath = "//a[@class='hotelDetails']")
+	    protected WebElement hotelListsElement;
+	   
 	    
-	    
+	    protected By hotelLists= By.xpath("//a[@class='hotelDetails']");
 	    
 	    protected By locationToSearch=By.xpath("//a[text()='Indiranagar, Bangalore, Karnataka, India']");
 	    
