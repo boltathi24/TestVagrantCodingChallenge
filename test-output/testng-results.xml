@@ -2,32 +2,58 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11744" started-at="2019-07-11T20:40:53Z" finished-at="2019-07-11T20:41:05Z">
+  <suite name="Default suite" duration-ms="34607" started-at="2019-08-07T19:14:13Z" finished-at="2019-08-07T19:14:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11744" started-at="2019-07-11T20:40:53Z" finished-at="2019-07-11T20:41:05Z">
-      <class name="com.testvagrant.testModules.FlightBookingTest">
-        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="setDriver" is-config="true" duration-ms="1068" started-at="2019-07-12T02:10:52Z" finished-at="2019-07-12T02:10:53Z">
+    <test name="Default test" duration-ms="34607" started-at="2019-08-07T19:14:13Z" finished-at="2019-08-07T19:14:47Z">
+      <class name="com.hippo.testModules.validateCreateProspect">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="setDriver" is-config="true" duration-ms="175" started-at="2019-08-08T00:44:13Z" finished-at="2019-08-08T00:44:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="loadApp()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="loadApp" is-config="true" duration-ms="3299" started-at="2019-07-12T02:10:53Z" finished-at="2019-07-12T02:10:56Z">
+        <test-method status="PASS" signature="loadApp()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="loadApp" is-config="true" duration-ms="7956" started-at="2019-08-08T00:44:13Z" finished-at="2019-08-08T00:44:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApp -->
-        <test-method status="PASS" signature="testThatResultsAppearForAOneWayJourney()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="testThatResultsAppearForAOneWayJourney" duration-ms="8298" started-at="2019-07-12T02:10:56Z" finished-at="2019-07-12T02:11:05Z">
+        <test-method status="PASS" signature="initiMethods(java.lang.reflect.Method)[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="initiMethods" is-config="true" duration-ms="14" started-at="2019-08-08T00:44:21Z" finished-at="2019-08-08T00:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hippo.testModules.validateCreateProspect.validateNewProspectCreation() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThatResultsAppearForAOneWayJourney -->
-        <test-method status="PASS" signature="windUp()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="windUp" is-config="true" duration-ms="125" started-at="2019-07-12T02:11:05Z" finished-at="2019-07-12T02:11:05Z">
+        </test-method> <!-- initiMethods -->
+        <test-method status="PASS" signature="assignTestCategory()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="assignTestCategory" is-config="true" duration-ms="3" started-at="2019-08-08T00:44:21Z" finished-at="2019-08-08T00:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignTestCategory -->
+        <test-method status="PASS" signature="validateNewProspectCreation()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="validateNewProspectCreation" duration-ms="26498" started-at="2019-08-08T00:44:21Z" finished-at="2019-08-08T00:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewProspectCreation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="getResult" is-config="true" duration-ms="12" started-at="2019-08-08T00:44:47Z" finished-at="2019-08-08T00:44:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateNewProspectCreation status=SUCCESS method=validateCreateProspect.validateNewProspectCreation()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="windUp()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="windUp" is-config="true" duration-ms="111" started-at="2019-08-08T00:44:47Z" finished-at="2019-08-08T00:44:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- windUp -->
-        <test-method status="PASS" signature="clearAll()[pri:0, instance:com.testvagrant.testModules.FlightBookingTest@7d9d1a19]" name="clearAll" is-config="true" duration-ms="22" started-at="2019-07-12T02:11:05Z" finished-at="2019-07-12T02:11:05Z">
+        <test-method status="PASS" signature="clearAll()[pri:0, instance:com.hippo.testModules.validateCreateProspect@6d4b1c02]" name="clearAll" is-config="true" duration-ms="289" started-at="2019-08-08T00:44:47Z" finished-at="2019-08-08T00:44:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearAll -->
-      </class> <!-- com.testvagrant.testModules.FlightBookingTest -->
+      </class> <!-- com.hippo.testModules.validateCreateProspect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
